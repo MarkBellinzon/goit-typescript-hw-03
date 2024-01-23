@@ -17,7 +17,9 @@ class Key {
       this.key;
     }
   
-   
+    getKey(): Key {
+      return this.key;
+    }
   }
   
   abstract class House {
